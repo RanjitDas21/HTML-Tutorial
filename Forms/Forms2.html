@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action.php">
+        <h1>Event Registration</h1>
+        <br/>
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name">
+        <br/>
+        <br/>
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email">
+        <br/>
+        <br/>
+        <label for="phone">Enter your phone number:</label>
+        <input type="tel" id="phone">
+        <br/>
+        <br/>
+        <h3>Select your department</h3>
+        <select name="department" id="department">
+            <option value="Teacher">Teacher</option>
+            <option value="Student">Student</option>
+            <option value="Others">Others</option>
+        </select>
+        <br/>
+        <br/>
+        <h3>Select the topics that you want to learn</h3>
+        <label for="101">
+            <input type="checkbox" name="subject" value="HTML" id="101">HTML
+        </label>
+        <label for="102">
+            <input type="checkbox" name="subject" value="CSS" id="102">CSS
+        </label>
+        <label for="103">
+            <input type="checkbox" name="subject" value="JavaScript" id="103">JavaScript
+        </label>
+        <br/>
+        <br/>
+        <label for="feedback">Enter your feedback here:</label>
+        <br/>
+        <textarea name="textarea1" id="feedback" rows="5"></textarea>
+        <br/>
+        <br/>
+        <button>Submit</button>
+        
+    </form>
+</body>
+</html>
